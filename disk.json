@@ -1,0 +1,24 @@
+{
+  "admin":[
+    {
+      "mail":"admin0@example.com"
+    },
+    {
+      "mail":"admin1@example.com"
+    },
+    {
+      "mail":"admin2@example.com"
+    }
+  ],
+  "disk":[
+    {
+      "name":"/data",
+      "limit":90
+    },
+    {
+      "name":"/",
+      "limit":70
+    }
+  ]
+}
+
