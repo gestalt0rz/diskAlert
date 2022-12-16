@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # path of JSON file
-JSON="/data/diskAlert/disk.json"
+JSON="/PATH/disk.json"
 
 # parse mail addresses from JSON file
 ADMIN=$(grep -o '"mail":"[^"]*' $JSON |grep -o '[^"]*$' | tr '\n' ',' | sed 's/,$//')
